@@ -1,10 +1,4 @@
-import {
-  ColorTags,
-  GradientText,
-  Project,
-  Section,
-  Tags,
-} from 'astro-boilerplate-components';
+import { GradientText, Project, Section } from 'astro-boilerplate-components';
 
 const ProjectList = () => (
   <Section
@@ -25,14 +19,14 @@ const ProjectList = () => (
           src: '/assets/images/project-web-design.png',
           alt: 'Project Web Design',
         }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
-            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
-          </>
-        }
+        // category={
+        //   <>
+        //     <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+        //     <Tags color={ColorTags.LIME}>Web design</Tags>
+        //     <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+        //     <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+        //   </>
+        // }
       />
       <Project
         name="Project 2"
@@ -41,13 +35,13 @@ const ProjectList = () => (
         hendrerit dui odio id enim."
         link="/"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
-        category={
-          <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
+        // category={
+        //   <>
+        //     <Tags color={ColorTags.VIOLET}>Next.js</Tags>
+        //     <Tags color={ColorTags.EMERALD}>Blog</Tags>
+        //     <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+        //   </>
+        // }
       />
       <Project
         name="Project 3"
@@ -56,13 +50,13 @@ const ProjectList = () => (
         hendrerit dui odio id enim."
         link="/"
         img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
-          </>
-        }
+        // category={
+        //   <>
+        //     <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+        //     <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
+        //     <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+        //   </>
+        // }
       />
     </div>
   </Section>
